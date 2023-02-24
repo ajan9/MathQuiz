@@ -3,26 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
-
+    app:startDestination="@id/menuFragment">
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.mathquiz.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/menuFragment"
+        android:name="com.example.mathquiz.MenuFragment"
+        android:label="MenuFragment"
+        tools:layout="@layout/fragment_menu">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_menuFragment_to_shapesFragment"
+            app:destination="@id/shapesFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_countingFragment"
+            app:destination="@id/countingFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_computingFragment"
+            app:destination="@id/computingFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.mathquiz.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
+        android:id="@+id/shapesFragment"
+        android:name="com.example.mathquiz.ShapesFragment"
+        android:label="ShapesFragment"
+        tools:layout="@layout/fragment_shapes"/>
+    <fragment
+        android:id="@+id/countingFragment"
+        android:name="com.example.mathquiz.CountingFragment"
+        android:label="fragment_counting"
+        tools:layout="@layout/fragment_counting" />
+    <fragment
+        android:id="@+id/computingFragment"
+        android:name="com.example.mathquiz.ComputingFragment"
+        android:label="fragment_computing"
+        tools:layout="@layout/fragment_computing" />
 </navigation>
