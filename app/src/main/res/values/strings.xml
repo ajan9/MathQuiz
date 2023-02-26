@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Math Quiz</string>
+    <string name="counting_title">Prebroji sve %s!</string>
+    <string name="strawberry">jagode</string>
+    <string name="banana">banane</string>
+    <string name="peach">breskve</string>
+    <string name="cherry">trešnje</string>
+    <string name="lemon">limune</string>
 </resources>
