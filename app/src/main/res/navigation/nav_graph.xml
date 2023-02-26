@@ -23,7 +23,11 @@
         android:id="@+id/shapesFragment"
         android:name="com.example.mathquiz.ShapesFragment"
         android:label="ShapesFragment"
-        tools:layout="@layout/fragment_shapes"/>
+        tools:layout="@layout/fragment_shapes">
+        <action
+            android:id="@+id/action_shapesFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
     <fragment
         android:id="@+id/countingFragment"
         android:name="com.example.mathquiz.CountingFragment"

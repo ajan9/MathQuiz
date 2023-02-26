@@ -19,5 +19,14 @@
     <string name="try_again">Pokušaj ponovno!</string>
     <string name="try_again_game">Pokušaj opet</string>
 
+    <!--Shapes-->
+    <string name="kvadrat">kvadrat</string>
+    <string name="pravokutnik">pravokutnik</string>
+    <string name="trokut">trokut</string>
+    <string name="krug">krug</string>
+    <string name="peterokut">peterokut</string>
+    <string name="romb">romb</string>
+    <string name="elipsa">elipsa</string>
+
 
 </resources>

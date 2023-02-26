@@ -21,6 +21,8 @@
     <color name="gray">#808285</color>
     <color name="gray_dark">#FF252525</color>
     <color name="black">#FF000000</color>
+    <color name="light">#d6d6d6</color>
 
     <color name="error_red">#cc0000</color>
+    <color name="green">#98ed87</color>
 </resources>
