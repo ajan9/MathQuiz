@@ -69,16 +69,19 @@ class ShapesFragment : Fragment() {
 
         buttons.shuffle()
         buttons[0].text = shapes.random().stringResource
-        buttons[1].text = shapes.random().stringResource
         buttons[2].text = shape.stringResource
-        while (buttons[1].text == buttons[0].text || buttons[1].text == buttons[2].text){
+        while (buttons[0].text.equals(buttons[2].text)){
+            buttons[0].text = shapes.random().stringResource
+        }
+        buttons[1].text = shapes.random().stringResource
+        while (buttons[1].text.equals(buttons[0].text) || buttons[1].text.equals(buttons[2].text)){
             buttons[1].text = shapes.random().stringResource
         }
 
 
         for (button in buttons) {
             button.setOnClickListener {
-                if (button.text == shape.stringResource) {
+                if (button.text.equals(shape.stringResource)) {
                     button.setBackgroundColor(resources.getColor(R.color.green))
                     Handler(Looper.getMainLooper()).postDelayed(
                         {
