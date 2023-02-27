@@ -67,6 +67,8 @@ class ShapesFragment : Fragment() {
             )
         )
 
+        buttons.forEach { it.isClickable = true }
+
         buttons.shuffle()
         buttons[0].text = shapes.random().stringResource
         buttons[2].text = shape.stringResource
@@ -81,6 +83,8 @@ class ShapesFragment : Fragment() {
 
         for (button in buttons) {
             button.setOnClickListener {
+                buttons.forEach { it.isClickable = false }
+
                 if (button.text.equals(shape.stringResource)) {
                     button.setBackgroundColor(resources.getColor(R.color.green))
                     Handler(Looper.getMainLooper()).postDelayed(
