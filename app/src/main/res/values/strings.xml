@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Math Quiz</string>
+    <string name="counting_title">Prebroji sve %s!</string>
+    <string name="strawberry">jagode</string>
+    <string name="banana">banane</string>
+    <string name="peach">breskve</string>
+    <string name="cherry">trešnje</string>
+    <string name="lemon">limune</string>
+
+    <!--Computing-->
+    <string name="quit">Odustani</string>
+    <string name="play_again">Pokušaj ponovno!</string>
+    <string name="ok">Ok</string>
+    <string name="enter_number">Upiši broj!</string>
+    <string name="check_result">Provjeri rezultat</string>
+    <string name="compute">Izračunaj!</string>
+    <string name="congrats">Bravo!</string>
+    <string name="next">Dalje</string>
+    <string name="try_again">Pokušaj ponovno!</string>
+    <string name="try_again_game">Pokušaj opet</string>
+
+    <!--Shapes-->
+    <string name="kvadrat">kvadrat</string>
+    <string name="pravokutnik">pravokutnik</string>
+    <string name="trokut">trokut</string>
+    <string name="krug">krug</string>
+    <string name="peterokut">peterokut</string>
+    <string name="romb">romb</string>
+    <string name="elipsa">elipsa</string>
+
+
 </resources>
