@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <shape>
-            <solid android:color="@color/blue_dark"/>
+            <solid android:color="@color/light"/>
             <corners android:radius="8dp" />
         </shape>
     </item>
@@ -12,8 +12,8 @@
             <gradient
                 android:type="linear"
                 android:angle="90"
-                android:startColor="@color/blue_dark"
-                android:endColor="@color/blue_light" />
+                android:startColor="@color/light"
+                android:endColor="#EDEDED" />
             <corners android:radius="8dp" />
         </shape>
     </item>
